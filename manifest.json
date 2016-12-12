@@ -1,0 +1,19 @@
+{
+    "manifest_version": 2,
+    "name": "FindInTabs",
+    "version": "1.0",
+
+    "description": "Finds words in all tabs.",
+
+    "default_icon": "icons/FindInAllTabs.svg",
+
+    "permissions": [
+        "tabs"
+    ],
+
+    "browser_action": {
+        "default_icon": "icons/FindInAllTabs.svg",
+        "default_title": "Find in All Tabs",
+        "default_popup": "popup/findinall.html"
+    }
+}
