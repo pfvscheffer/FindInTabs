@@ -11,6 +11,10 @@ function findAll() {
     query.then(insertTable, onQueryError);
 }
 
+function onQueryError(error) {
+    console.log("Error: ${error}");
+}
+
 function insertTable(tabs) {
     divResults.innerHTML = '';
     var tbl = document.createElement('table');
