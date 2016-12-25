@@ -1,1 +1,11 @@
 .results { font-family: sans-serif; }
+
+.error { font: red; }
+
+table { border-spacing: 0.5rem;
+        border: solid thin; }
+
+td { padding: 0.5rem;
+     background: #44BB44; }
+
+div { background: #CC5555; }

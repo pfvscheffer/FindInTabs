@@ -5,13 +5,12 @@
 
     "description": "Finds words in all tabs.",
 
-    "default_icon": "icons/FindInAllTabs.svg",
-
     "permissions": [
         "tabs"
     ],
 
     "browser_action": {
+        "browser_style": false,
         "default_icon": "icons/FindInAllTabs.svg",
         "default_title": "Find in All Tabs",
         "default_popup": "popup/findinall.html"
